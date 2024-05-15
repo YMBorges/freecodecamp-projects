@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.head {
+  width: 50%;
+  margin: 10px auto;
+  color: rgb(235, 231, 231);
+}
+.container {
+  width: 50%;
+  margin: 10px auto;
+  background-color: rgba(255, 69, 0, 0.7);
+  border-radius: 5px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(94, 92, 92);
+  margin: 10px 0;
+}
+.radio {
+  display: inline-block;
+}
+.form-group {
+  padding: 5px;
+  margin: 0 auto 15px auto;
+}
+.button {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+  height: 30px;
+  margin: 10px auto;
+}
+.img {
+  position: absolute;
+  z-index: -1;
+}

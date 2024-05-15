@@ -1,0 +1,81 @@
+#image {
+  max-width: 75%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+body {
+  font-family: "Sedan SC", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 10%;
+  background-color: rgb(221, 220, 220);
+}
+img {
+  border-radius: 15px;
+}
+.card {
+  background-color: hsl(240, 5%, 80%);
+  border-radius: 15px;
+}
+#title {
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+}
+.card-description {
+  padding: 15px;
+}
+.info-grid {
+  display: grid;
+  font-size: 20px;
+  line-height: 1.4;
+  row-gap: 20px;
+}
+.father {
+  display: grid;
+  grid-template-columns: auto repeat(2, 1fr) auto;
+  gap: 10px;
+}
+#photo2 {
+  width: 300px;
+}
+
+.card-image {
+  max-width: 300px;
+  max-height: 373px;
+}
+.photo-left {
+  text-align: left;
+  padding-right: 15px;
+}
+#photo-right {
+  text-align: right;
+  padding-left: 15px;
+}
+.card-date {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#king-family {
+  max-width: 700px;
+  margin: 0;
+  padding: 0;
+}
+#selma {
+  display: flex;
+  gap: 10px;
+}
+#selma-image {
+  max-width: 500px;
+}
+footer {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-title {
+  font-style: italic;
+}
